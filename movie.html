@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOOOK MOVIE TICKETS</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <style>
+        label{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        body{ 
+            background-image: url('1154.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            display:flex;
+            justify-content: center;
+            font-family: Montserrat;
+        }
+        .div1{
+            width:70%;
+        }
+        .div2{
+            background-color: rgba(212, 255, 0, 0.882);
+            border-radius: 10px;
+        }
+        .div3{
+            background-color: rgba(255, 170, 0, 0.882);
+            border-radius: 10px;
+            display:flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        h1{
+            background-color: rgba(0, 255, 255, 0.882); 
+            text-align: center; 
+            color: brown; 
+            padding:30px;
+            border-radius: 10px;
+        }
+        table{
+            width: 70%;
+            }
+        tr{
+            
+            height: 70px;
+        }
+        input, select{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-bottom: 2px solid rgba(128, 128, 128, 0.527);
+            background-color: #0e0d0da8;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+    <h1>BOOK MOVIE TICKETS</h1>
+    <div class="div2">
+    <table align="center">
+    <form>
+        <tr>
+            <td>
+        <label>Full name</label>
+            </td>
+            <td>
+        <input type="text" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+        <label >Email box</label>
+            </td>
+            <td>
+        <input type="email" required>
+            </td>
+        </tr>
+        <tr>
+            <td>
+        <label >Contact no.</label>
+            </td>
+            <td>
+        <input type="number">
+        </td>
+        </tr>
+        <tr>
+            <td>
+        <label >Date</label>
+            </td>
+            <td>
+        <input type="date">
+    </td>
+        </tr>
+<tr>
+    <td>
+        <label>Timing</label>
+    </td>
+    <td>
+<select>
+    <option>9AM</option>
+    <option>10AM</option>
+    <option>11AM</option>
+    <option>12PM</option>
+</select>
+</td>
+</tr>
+<tr>
+    <td>
+        <label>select no. of seats</label>
+    </td>
+    <td>
+        <input type="number">
+    </td>
+</tr>
+    </form>
+</table>
+</div>
+<div class="div3">
+    <form>
+        <label style="font-size: 60px;color: rgb(32, 8, 118); font-weight: bold;">Select Your Movie</label>
+        <br>
+        <br>
+        <table align="center">
+            <tr>
+                <td>
+        <input type="radio"name="Movie" id="Pathan">
+        <label></label>
+        
+        <img src="https://m.media-amazon.com/images/M/MV5BMjM2NTQ5Mzc2M15BMl5BanBnXkFtZTgwNTcxMDI2NTE@._V1_FMjpg_UX1000_.jpg" alt="" width="220" height="301">
+                </td>
+                <td>
+        <input type="radio"name="Movie" id="Pathan">
+        <label></label>
+        <img src= "https://stat5.bollywoodhungama.in/wp-content/uploads/2023/01/Shehzada-5.jpg"alt="" width="220" height="301">
+    </td>
+
+       
+         <td>
+        <input type="radio"name="movie" id="pathan">
+        <label></label>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/86/Kisi_Ka_Bhai_Kisi_Ki_Jaan_poster.jpg/220px-Kisi_Ka_Bhai_Kisi_Ki_Jaan_poster.jpg" alt="" width="220" height="301">
+        </td>
+        
+    </tr>
+    </table>
+    <button style="display: block; font-size: 50px;">Submit</button>
+
+    </form>
+
+    
+</div>
+    </div>
+</body>
+</html>

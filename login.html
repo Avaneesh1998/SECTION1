@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <style>
+        :root{
+            --theme-color: rgb(255, 0, 247);
+        }
+
+        .mycard{
+            /*border: 2px solid red;*/
+            background-color: white;
+            width: 30%;
+            padding: 50px;
+            box-sizing: border-box;
+            box-shadow: 6px 10px 5px 0 #00000073;
+            border-left: 3px solid var( --theme-color);
+        }
+        body{
+            /*background-color: #ccc;*/
+            /* background-image: linear-gradient(60deg,rgb(164, 150, 219),rgb(243, 172, 172)); */
+            background-image: url("https://wallpaperaccess.com/full/2890525.jpg");
+            background-size: cover;
+            backdrop-filter: blur(5px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .title{
+            text-align: center;
+            font-family: Montserrat;
+            font-size: 30px;
+        }
+        *{
+            font-family: Montserrat;
+        }
+        .myinput , .mybtn , .mylink1 , .mylink2{
+            display:block;
+        }
+        .myinput{
+            width: 100%;
+            box-sizing: border-box;
+            padding: 10px;
+            margin-bottom: 20px;
+            border: none;
+            border-bottom: 2px solid rgba(128, 128, 128, 0.149);
+            background-color: #80808035;
+
+        }
+        .mybtn
+        {
+            background-color: var(--theme-color);
+            width: 100%;
+            padding: 10px;
+            color: white;
+            font-weight: bold;
+            border: none;
+            margin-bottom: 30px;
+            border-radius: 5px;
+        }
+        .mylink1{
+            text-align: center;
+            font-weight: bold;
+            text-decoration: none;
+            color: var(--theme-color);
+        }
+        .mylink2{
+            margin-top: 20px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--theme-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="mycard">
+        <h3 class="title">Login</h3>
+        <form>
+        <input class="myinput" type="email" placeholder="Enter email">
+        <input class="myinput" type="password" placeholder="Enter password">
+        <button class="mybtn">submit</button>
+        </form>
+        <a href="" class="mylink1">or signup</a>
+        <a href="" class="mylink2">forgot password</a>
+    </div>
+    
+</body>
+</html>
